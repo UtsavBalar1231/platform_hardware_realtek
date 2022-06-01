@@ -15,7 +15,7 @@
 #error "Unknown byte order"
 #endif
 
-#define FIRMWARE_DIRECTORY  "/vendor//etc/firmware/%s"
+#define FIRMWARE_DIRECTORY  "/vendor/etc/firmware/%s"
 #define BT_CONFIG_DIRECTORY "/vendor/etc/firmware/%s"
 #define PATCH_DATA_FIELD_MAX_SIZE       252
 #define RTK_VENDOR_CONFIG_MAGIC         0x8723ab55
