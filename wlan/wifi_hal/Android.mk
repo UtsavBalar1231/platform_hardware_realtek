@@ -28,6 +28,8 @@ LOCAL_CFLAGS := \
     -Wno-unused-private-field \
     -Wno-unused-variable \
 
+LOCAL_HEADER_LIBRARIES := libutils_headers liblog_headers
+
 LOCAL_C_INCLUDES += \
 	external/libnl/include \
 	$(call include-path-for, libhardware_legacy)/hardware_legacy \
