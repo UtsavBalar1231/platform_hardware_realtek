@@ -70,6 +70,7 @@ struct rtk_bt_vendor_config{
 
 #define CONFIG_MAC_OFFSET_GEN_1_2       (0x3C)      //MAC's OFFSET in config/efuse for realtek generation 1~2 bluetooth chip
 #define CONFIG_MAC_OFFSET_GEN_3PLUS     (0x44)      //MAC's OFFSET in config/efuse for rtk generation 3+ bluetooth chip
+#define CONFIG_MAC_OFFSET_GEN_4PLUS     (0x30)      //MAC's OFFSET in config/efuse for rtk generation 4+ bluetooth chip
 
 #define HCI_EVT_CMD_CMPL_OPCODE_OFFSET          (3)     //opcode's offset in COMMAND Completed Event
 #define HCI_EVT_CMD_CMPL_STATUS_OFFSET          (5)     //status's offset in COMMAND Completed Event
@@ -175,6 +176,7 @@ typedef struct
 #define ROM_LMP_8822b               0x8822
 #define ROM_LMP_8723d               0x8723
 #define ROM_LMP_8821c               0x8821
+#define ROM_LMP_8822c               0x8822
 
 struct rtk_epatch_entry{
     uint16_t chip_id;
