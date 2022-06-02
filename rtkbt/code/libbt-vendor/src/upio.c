@@ -237,7 +237,7 @@ int bt_wake_up_host_mode_set(uint8_t mode)
 ** Returns         None
 **
 *******************************************************************************/
-static void proc_btwrite_timeout(union sigval arg)
+static void proc_btwrite_timeout(/*union sigval arg*/)
 {
     UPIODBG("..%s..", __FUNCTION__);
     lpm_proc_cb.btwrite_active = FALSE;
